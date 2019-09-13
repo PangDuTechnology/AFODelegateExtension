@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFODelegateExtension"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "delegate extenstion."
 
   # This description is used to generate tags and improve search results.
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFODelegateExtension/**/*.{h,m}"
+  s.source_files  = "AFODelegateExtension/*.{h,m}"
   #s.exclude_files = "AFODelegateExtension/*.{h,m}"
 
-  s.public_header_files = "AFODelegateExtension/**/*.h"
+  s.public_header_files = "AFODelegateExtension/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
