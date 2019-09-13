@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AFODelegate"
+  s.name         = "AFODelegateExtension"
   s.version      = "0.0.1"
   s.summary      = "delegate extenstion."
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = 'Integrate common tripartite libraries.'
 
-  s.homepage     = "https://github.com/PangDuTechnology/AFODelegateExtenstion.git"
+  s.homepage     = "https://github.com/PangDuTechnology/AFODelegateExtension.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/PangDuTechnology/AFODelegateExtenstion.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/PangDuTechnology/AFODelegateExtension.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFODelegateExtenstion/**/*.{h,m}"
-  #s.exclude_files = "AFODelegateExtenstion/*.{h,m}"
+  s.source_files  = "AFODelegateExtension/**/*.{h,m}"
+  #s.exclude_files = "AFODelegateExtension/*.{h,m}"
 
-  s.public_header_files = "AFODelegateExtenstion/**/*.h"
+  s.public_header_files = "AFODelegateExtension/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
