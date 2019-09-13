@@ -39,15 +39,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24EB683A223BAC7B00B90090 /* foreign */ = {
-			isa = PBXGroup;
-			children = (
-				24EB683B223BAD0100B90090 /* AFODelegateForeign.h */,
-				24EB683C223BAD0100B90090 /* AFODelegateForeign.m */,
-			);
-			path = foreign;
-			sourceTree = "<group>";
-		};
 		24EEAEB0223B3BEB001596DD = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				24EEAEBD223B3BEB001596DD /* AFODelegateExtension.h */,
-				24EB683A223BAC7B00B90090 /* foreign */,
+				24EB683B223BAD0100B90090 /* AFODelegateForeign.h */,
+				24EB683C223BAD0100B90090 /* AFODelegateForeign.m */,
 			);
 			path = AFODelegateExtension;
 			sourceTree = "<group>";
