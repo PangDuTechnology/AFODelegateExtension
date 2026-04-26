@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFODelegateExtension"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "delegate extenstion."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source_files  = "AFODelegateExtension/*.{h,m}"
   s.public_header_files = "AFODelegateExtension/*.h"
 
-  s.dependency "AFOGitHub", "~> 0.0.14"
+  s.dependency "AFOGitHub", "~> 0.0.15"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
