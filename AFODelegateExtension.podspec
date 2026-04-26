@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   s.source_files  = "AFODelegateExtension/*.{h,m}"
   s.public_header_files = "AFODelegateExtension/*.h"
 
+  s.dependency "AFOGitHub", "~> 0.0.13"
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
